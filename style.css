@@ -1,0 +1,64 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
+.counteiner {
+    border: 1px solid #000;
+    align-items: center;
+    margin: 0 auto;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: #000;
+    color: #fff;
+    border-radius: 20px;
+}
+.card-1:hover{
+    transition: 1s;
+    transform: scale(1) translate(-30%, -30%)
+}
+.card-1 {
+}
+.card-1__title {
+    cursor: pointer;
+}
+.card-2:hover{
+    transition: 1s;
+    transform: rotate(200deg);
+}
+.card-2 {
+}
+.card-3:hover{
+    transition: 1s;
+    transform: translate(20px);
+    color: #1551d1;
+}
+.card-3 {
+}
+.card-4:hover{
+    transition: 1s;
+    transform: skew(-25deg, -15deg);
+    background-color: #5fe611;
+}
+.card-4 {
+}
+.card-5:hover{
+    transform: rotate(0.5turn);
+    transition: 0.5s;
+}
+.card-5 {
+    
+}
+
+/*skale - збільшує елементи за замовчення розмір (1)*/
+        /*translate - рухає елемени вимірюється в пікселях можна рухати по осі X та Y*/
+    /*transform: scale(1.8)translate(150px);*/
+    /*transform: skew(30deg);*/
+    /*skew - Іскажає елемент вирівнюється в відсотках (deg)*/
